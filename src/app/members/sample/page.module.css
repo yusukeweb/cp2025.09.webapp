@@ -1,0 +1,15 @@
+.container {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 24px;
+  max-width: 600px;
+}
+
+.name {
+  color: #2563eb;
+}
+
+.message {
+  margin-top: 16px;
+  font-weight: bold;
+}
