@@ -7,7 +7,7 @@ export default function MembersPage() {
       <h1>メンバー一覧</h1>
       <ul className={styles.grid}>
         <li className={styles.card}>
-          <Link href="/members/sample">サンプル太郎</Link>
+          <Link href="/members/ishiguro">石黒新</Link>
         </li>
         {/* 生徒はここにカードを追加 */}
       </ul>
