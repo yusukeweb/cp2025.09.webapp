@@ -9,6 +9,9 @@ export default function MembersPage() {
         <li className={styles.card}>
           <Link href="/members/sample">サンプル太郎</Link>
         </li>
+        <li className={styles.card}>
+          <Link href="/members/ikehata">池端花純</Link>
+        </li>
         {/* 生徒はここにカードを追加 */}
       </ul>
     </section>

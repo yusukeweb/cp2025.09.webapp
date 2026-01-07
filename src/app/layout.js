@@ -21,7 +21,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ja">
-      <body>
+      <body suppressHydrationWarning>
         <Header />
         <main style={{ maxWidth: '960px', margin: '40px auto', padding: '0 16px' }}>
           {children}
